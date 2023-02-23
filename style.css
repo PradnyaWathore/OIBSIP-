@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #ffe4c4;
+    min-height: 100vh;
+    border: 10px solid #000000;
+}
+
+.content{
+     max-width: 900px;
+     margin: 0 auto;
+}
+
+.top_section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top_section h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+}
+.top_section h4 {
+    text-align: end;
+    font-size: 30px;
+    color: #1d1e4c;
+}
+
+.image_container{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image_container,img{
+      width: 300px;
+      height: 300px;
+}
+
+.about_section{
+    margin-top: 50px;
+
+}
+.about_section h2{
+    font-size: 30px;
+    font-weight: 200px;
+    margin-bottom: 20px;
+}
+.about_section p{
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 1.1px;
+    text-align: justify;
+}
+
+.quotes h2 {
+    margin-bottom: 20px;
+    font-weight: 200px;
+    padding: 20px;
+    font-family: Arial, verdana;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .quotebox {
+    border: 2px #b30000 solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  .quotebox:hover {
+    background-color: #008000;
+    color: #FFFFFF;
+  }
+  .quotebox p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 17px;
+    padding: 10px;
+    font-weight: bold;
+  }
+  h3 {
+    font-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .facts {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:17px;
+    padding:10px;
+  }
+  li {
+    padding: 1px;
+  }
+  .outer{
+    background: #eeeeee;
+    border-radius:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:10px;
+  }
+  h1 {
+    font-size: 35px;
+    font-family:Lobster;
+    font-weight:bold;
+    padding:10px;
+  }
+  .footer{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  h6 {
+    border-top: 2px #d8d8d8 solid;
+    padding-top:3px;
+    padding-bottom:10px;
+  }
+  .reference p {
+    margin: 50px;
+    font-family: "Trebuchet MS", verdana;
+    font-size: 20px;
+    text-align: end;
+  }
+  .reference a:hover {
+    color: #00b300;
+  }
+
+  
